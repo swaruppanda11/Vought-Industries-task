@@ -114,8 +114,7 @@ final class CarouselViewController: UIViewController {
     private func initPageViewController() {
         
         // Create pageViewController
-        pageViewController = UIPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal,
-                                                  options: nil)
+        pageViewController = UIPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
         
         // Set up pageViewController
         pageViewController?.dataSource = self
