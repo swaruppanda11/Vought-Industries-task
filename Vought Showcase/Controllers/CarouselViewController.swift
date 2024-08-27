@@ -117,7 +117,7 @@ final class CarouselViewController: UIViewController {
         pageViewController = UIPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
         
         // Set up pageViewController
-        pageViewController?.dataSource = self
+        pageViewController?.dataSource = nil
         pageViewController?.delegate = self
         pageViewController?.setViewControllers(
             [getController(at: currentItemIndex)], direction: .forward, animated: true)
