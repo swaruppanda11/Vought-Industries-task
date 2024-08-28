@@ -22,7 +22,8 @@ class MainViewController: UIViewController {
         
         // Create carouselViewController
         let carouselViewController = CarouselViewController(items: carouselItemProvider.items())
-        
+        carouselViewController.modalPresentationStyle = .fullScreen
+                
         // Add carousel view controller in container view
         add(asChildViewController: carouselViewController, containerView: containerView)
     }

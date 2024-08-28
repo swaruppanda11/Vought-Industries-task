@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MCi-mh-oqf">
-                                <rect key="frame" x="0.0" y="59" width="393" height="400"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="793"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="400" id="gWT-oG-OZY"/>
+                                    <constraint firstAttribute="height" constant="793" id="W72-UO-lmA"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -38,7 +38,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-69" y="4"/>
+            <point key="canvasLocation" x="-69.465648854961827" y="3.5211267605633805"/>
         </scene>
     </scenes>
     <resources>
